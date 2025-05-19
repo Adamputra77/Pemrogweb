@@ -56,7 +56,7 @@
           <a href="" class="logo d-flex align-items-center">
             <span class="sitename">Strategy</span>
           </a>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+          <p>Pemasaran Digital Marketing, Memanfaatkan media sosial seperti Instagram, Facebook, dan TikTok untuk menampilkan katalog produk terbaru, testimoni pelanggan, serta promo menarik,:.</p>
           <div class="social-links d-flex mt-4">
             <a href="#"><i class="bi bi-twitter-x"></i></a>
             <a href="#"><i class="bi bi-facebook"></i></a>
@@ -70,7 +70,7 @@
           <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
+            <li><a href="#">Service Shoes</a></li>
             <li><a href="#">Terms of service</a></li>
             <li><a href="#">Privacy policy</a></li>
           </ul>
@@ -79,11 +79,11 @@
         <div class="col-lg-2 col-6 footer-links">
           <h4>Our Services</h4>
           <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Product Management</a></li>
+            <li><a href="#">Sepatu Berkualitas</a></li>
+            <li><a href="#">Sepatu Terjangkau</a></li>
+            <li><a href="#">Sepatu Murah dan bagus</a></li>
             <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
+            <li><a href="#">Banyak Pilihan</a></li>
           </ul>
         </div>
 
@@ -93,14 +93,14 @@
           <p>Tangerang</p>
           <p>Indonesia</p>
           <p class="mt-4"><strong>Phone:</strong> <span>+62 88214199726</span></p>
-          <p><strong>Email:</strong> <span>adam@gmail.com</span></p>
+          <p><strong>Email:</strong> <span>adamsap8888@gmail.com</span></p>
         </div>
 
       </div>
     </div>
 
     <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">Strategy</strong> <span>All Rights Reserved</span></p>
+      <p>© <span>TokoSepatuKu</span> <strong class="px-1 sitename">Cheap</strong> <span>All Rights Reserved</span></p>
       <div class="credits">
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>

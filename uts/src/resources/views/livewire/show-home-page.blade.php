@@ -208,7 +208,7 @@
                       </p>
                       <div class="client-info d-flex align-items-center mt-4">
                         <img
-                          src="assets/img/person/person-m-1.webp"
+                          src="{{ asset('front/assets/img/person/person-m-1.webp') }}"
                           class="client-img"
                           alt="Pelanggan"
                           loading="lazy"
