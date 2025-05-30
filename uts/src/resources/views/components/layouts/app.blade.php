@@ -41,7 +41,7 @@
       <nav id="navmenu" class="navmenu">
       </nav>
 
-      <a class="btn-getstarted" href="{{ url('/admin')}}">Login</a>
+      <a class="btn-getstarted" href="{{ route('filament.client.auth.login') }}">Login</a>
 
     </div>
   </header>

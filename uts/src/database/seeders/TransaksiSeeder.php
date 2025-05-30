@@ -4,28 +4,20 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use App\Models\Transaksi;
-use App\Models\Pelanggan;
-use App\Models\TokoSepatu;
 
 class TransaksiSeeder extends Seeder
 {
     /**
-     * Run the seeder.
+     * Run the database seeds.
      */
     public function run(): void
     {
-        $pelanggan = Pelanggan::first();
-        $sepatu = TokoSepatu::first();
-
-        if ($pelanggan && $sepatu) {
+        foreach (range(1, 10) as $i) {
             Transaksi::create([
-                'pelanggan_id' => $pelanggan->id,
-                'sepatu_id' => $sepatu->id,
-                'Jumlah' => 2,
-                'Total_Harga' => $sepatu->Harga * 2,
+                'Jumlah' => rand(1, 5),
+                'Total_Harga' => rand(50000, 1000000),
             ]);
-        } else {
-            $this->command->info('Pelanggan atau Sepatu belum ada. Harap seed data sebelumnya.');
         }
     }
 }
+

@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use Livewire\Livewire;
 use App\Livewire\ShowHomePage;
+use App\Http\Controllers\PaymentController;
+
 
 /* NOTE: Do Not Remove
 / Livewire asset handling if using sub folder in domain
@@ -21,4 +23,6 @@ Livewire::setScriptRoute(function ($handle) {
 //     return view('welcome');
 // });
 Route::get('/', ShowHomePage::class)->name('home');
+Route::get('/pay', [PaymentController::class, 'createTransaction']);
+
 
